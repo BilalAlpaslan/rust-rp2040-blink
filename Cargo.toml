@@ -7,5 +7,7 @@ edition = "2021"
 cortex-m-rt = "0.7.0"
 cortex-m = "0.7.0"
 rp2040-boot2 = '0.3.0'
-rp2040-pac = { git = "https://github.com/rp-rs/rp2040-pac", branch="main" }
+rp2040-pac = { git = "https://github.com/rp-rs/rp2040-pac", branch = "main" }
 panic-halt = "0.2.0"
+rp2040-hal = '0.8.2'
+embedded-hal = '0.2.5'
